@@ -1,0 +1,47 @@
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+main h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main label {
+  margin-bottom: 5px;
+}
+
+main input,
+main textarea,
+main button {
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+}
+
+main input,
+main textarea {
+  background-color: #e9ecef;
+  color: #333;
+}
+
+main button {
+  background-color: #333;
+  color: #e9ecef;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+main button:hover {
+  background-color: #6c757d;
+}
