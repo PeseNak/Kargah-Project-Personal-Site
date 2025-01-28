@@ -1,3 +1,11 @@
+@font-face {
+  font-family: HTT;
+  src: url("../fonts/HighTowerTextRegular.ttf");
+}
+@font-face {
+  font-family: papyrus;
+  src: url("../fonts/papyrus.ttf");
+}
 * {
   direction: ltr;
   box-sizing: border-box;
@@ -20,6 +28,7 @@ header {
 
 header h1 {
   margin-bottom: 10px;
+  font-family: HTT;
 }
 
 nav ul {
@@ -27,6 +36,7 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
+  font-family: papyrus;
   overflow: hidden;
   background-color: #6c757d;
 }
